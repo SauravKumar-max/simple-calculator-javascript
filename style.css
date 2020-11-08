@@ -42,5 +42,22 @@ body{
   button:hover{
      transform: scale(1.1);
   }
+
+  .numbers{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(60px, auto);
+  }
+    
+  .equals{
+    font-size: 1.6rem;
+    padding-top: 20px;
+    width: 150px;
+    display: grid;
+    grid-column: 3/5;
+    grid-row: 5;
+    background: pink;
+  }
   
   
